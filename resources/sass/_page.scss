@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.styled-input {
+  text-align: center;
+  margin: 25px auto;
+  display: block;
+  color: #ffffff !important;
+
+  @media (min-width: 768px) {
+    max-width: 50%;
+    margin-top: 2em;
+  }
+}
+
+.styled-submit {
+  margin: 0 auto;
+  display: block !important;
+}
+
+form {
+  h4 {
+    text-align: center;
+  }
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 4em;
+  position: relative;
+  top: 1em;
+}
